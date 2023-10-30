@@ -52,6 +52,24 @@ const foodItems = [
   foodImage: "https://images.unsplash.com/photo-1595177924779-dbe82554cc24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNvZGF8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=400&q=60",
   price: 5,
   description: "Soda Bottle which Digest Food"
+} ,
+{
+  foodName: "Chineese Rice",
+  foodImage: "https://images.unsplash.com/photo-1626266799523-941311ea2273?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNoaW5lZXNlJTIwcmljZXxlbnwwfHwwfHx8MA%3D%3D",
+  price: 10,
+  description: "Delicious Chinese Rice"
+}  ,
+{
+  foodName: "Frice",
+  foodImage: "https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJpZXN8ZW58MHx8MHx8fDA%3D",
+  price: 5,
+  description: "Italian Style fries"
+}  ,
+{
+  foodName: "Shawarma",
+  foodImage: "https://images.unsplash.com/photo-1642783944285-b33b18ef6c3b?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2hhd2FybWF8ZW58MHx8MHx8fDA%3D",
+  price: 5,
+  description: "Mexican Shawarma"
 }  
 ];
 
