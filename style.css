@@ -1,5 +1,5 @@
  
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 
 
@@ -8,14 +8,11 @@
     padding: 0;
 }
 
-@font-face {
-  font-family: 'MiracleFairway';
-  src: url(./Assests/Fonts/MiracleFairwayPersonalUse.ttf) format('truetype');
-}
+
 
 body{
     
-  font-family: 'MiracleFairway' !important;
+  font-family: 'Poppins' !important;
   }
 
 
