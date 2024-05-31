@@ -129,9 +129,9 @@
 
   <!-- HEADER  -->
 
-  <section data-aos="fade-up" data-aos-duration="3000"
+  <section
     class="bg-center bg-no-repeat bg-[url('https://elements-cover-images-0.imgix.net/a79cbc16-7f12-453f-a88c-3704fcbf4c9d?auto=compress%2Cformat&fit=max&w=900&s=301e961d6de3bc2329a0296449c795ce')] bg-gray-700 bg-blend-multiply border-b-2">
-    <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+    <div data-aos="fade-up" data-aos-duration="3000" class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
       <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">We Provide
         Best Food In Town</h1>
       <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Lorem ipsum dolor sit amet,
@@ -158,23 +158,24 @@
 
 
   <div class="p-24 bg-black text-white">
-    <div class="grid grid-cols-2 grid-rows-1 gap-4 place-items-center		">
+    <div class="flex flex-col md:grid grid-cols-2 grid-rows-1  gap-4 md:place-items-center		">
       <div class="flex flex-col gap-4 justify-center items-center">
-        <h2 class="text-4xl font-black	">TODAY'S SPECIAL</h2>
-        <h2 class="text-3xl">Surprise for you</h2>
-        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem distinctio sunt ipsa
+        <h2 class="text-xl text-center font-black	md:text-4xl">TODAY'S SPECIAL</h2>
+        <h2 class="text-center text-3xl">Surprise for you</h2>
+        <p class="text-center text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem distinctio sunt
+          ipsa
           consectetur a enim
           porro esse voluptas voluptatibus adipisci error commodi omnis debitis alias, fugit est nobis illo incidunt!
         </p>
         <div class="flex flex-row gap-8">
           <h2 class="text-6xl text-black-600">45$</h2>
           <Button
-            class="  px-5 text-2xl font-medium text-center text-white rounded-lg bg-violet-500 hover:bg-violet-600 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Shop
+            class="  px-5 text-sm font-medium text-center text-white rounded-lg bg-violet-500 hover:bg-violet-600 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Shop
             Now</Button>
         </div>
       </div>
       <div>
-        <img src="./Assests/Images/Burger-removebg-preview.png" alt="">
+        <img class="" src="./Assests/Images/Burger-removebg-preview.png" alt="">
       </div>
     </div>
   </div>
@@ -510,18 +511,57 @@
   <!-- RIDER SECTION  -->
 
   <div class="bg-black">
-    <div>
-      <div></div>
-      <div>
+    <div class="flex flex-col md:flex-row  justify-center items-center">
+      <div class="w-1/2">
         <img src="./Assests/Images/Rider.png" alt="">
+      </div>
+      <div class="w-1/2 ">
+        <div class="text-center ">
+          <h2 class="text-white text-md mb-4 md:text-4xl">YOUR MEAL AT YOUR DOOR</h2>
+          <p class="text-white mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, tempora earum. Iusto,
+            provident error.
+            Doloribus accusantium earum libero quo esse adipisci, quasi laborum aliquam eligendi dolorum impedit
+            reiciendis ea hic?</p>
+          <Button
+            class="mb-4  px-5 py-3 text-sm font-medium text-center text-white rounded-lg bg-violet-500 hover:bg-violet-600 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Shop
+            Now</Button>
+        </div>
       </div>
     </div>
   </div>
 
-
-
   <!-- RIDER SECTION  -->
 
+
+  <!-- ABOUT US  -->
+  <div class="bg-[#911F27]">
+
+    <div class="flex flex-col md:flex-row  justify-center items-center">
+
+      <div class="w-2/3 text-white  px-8 ">
+        <h2 class="text-6xl  mb-2 ">ABOUT US</h2>
+        <span class="text-4xl mb-2">We Delivered Taste</span>
+        <p class="text-sm text-left	 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam esse odio
+          libero,
+          debitis unde
+          voluptatibus
+          nemo atque, blanditiis cum fuga saepe quia nesciunt voluptates illum non officiis voluptatem nulla? In.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam esse odio libero,
+          debitis unde voluptatibus
+          nemo atque, blanditiis cum fuga saepe quia nesciunt voluptates illum non officiis voluptatem nulla? In.</p>
+
+        <Button
+          class="mb-4  px-5 py-3 text-sm font-medium text-center text-white rounded-lg bg-violet-500 hover:bg-violet-600 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Shop
+          Now</Button>
+      </div>
+
+      <div class="w-1/3">
+        <img src="./Assests/Images/Pasta.png" alt="">
+      </div>
+    </div>
+
+  </div>
+  <!-- ABOUT US  -->
 
 
 
@@ -696,10 +736,11 @@
     </div>
 
   </div>
+
+
+
+
   <!-- CONTACT US  -->
-
-
-
   <section id="contact" class="bg-[#911F27] text-white body-font relative">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-col text-center w-full mb-12">
