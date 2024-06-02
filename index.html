@@ -139,8 +139,8 @@
   <!-- DISCOUNT SECTION  -->
   <div class="p-24 bg-black text-white">
     <div class="flex flex-row justify-center items-center	">
-      <div class="w-1/2">
-        <div class="text-center">
+      <div class="w-1/2" data-aos="fade-right" data-aos-duration="1500">
+        <div class="text -center">
           <h2 class="text-xl text-center font-black	md:text-5xl lg:text-6xl lg:tracking-[0.2em]">TODAY'S SPECIAL</h2>
           <h2 class="text-center text-2xl mb-2 tracking-[.6em]">Surprise for you</h2>
           <p class="text-center text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem distinctio
@@ -157,7 +157,7 @@
           </div>
         </div>
       </div>
-      <div class="w-1/2">
+      <div class="w-1/2" data-aos="fade-down" data-aos-duration="1500">
         <img class="" src="./Assests/Images/Burger-removebg-preview.png" alt="">
       </div>
     </div>
@@ -318,31 +318,49 @@
   <!-- SERVICES  -->
   <div class="bg-black">
     <div class="flex flex-row justify-center items-center gap-8">
-      <div class="w-1/2">
+      <div class="w-1/2 " data-aos="fade-right" data-aos-duration="1500">
         <img src="./Assests/Images/Chef.jpg" alt="">
       </div>
-      <div class="w-1/2 text-white">
+      <div class="w-1/2 text-white" data-aos="fade-up" data-aos-duration="1500">
         <div>
           <h2 class="uppercase lg:text-4xl lg:tracking-[0.4em]">We are more than multiple services</h2>
-          <p class="text-sm">This is a type of restaurent which typically servefood and drinks in addition to light
+          <p class="text-sm mt-2">This is a type of restaurent which typically servefood and drinks in addition to light
             refreshment such as
             baked goods or snacks. The trem comes from the rech word meaning food</p>
         </div>
 
-        <div class="flex flex-row justify-start gap-8">
+        <div class="mt-6 flex flex-row justify-start gap-8">
           <div>
-            <ul class="leading-10">
-              <li>Online Order</li>
-              <li>24/7 Services</li>
-              <li>Clean Kitchen</li>
+            <ul class="leading-[50px]">
+              <li class="flex justify-center items-center gap-2">
+                <img class="h-6 w-6" src="./Assests/Images/24-7.png" alt="">
+                <span>24/7 Services</span>
+              </li>
+              <li class="flex justify-center items-center gap-2">
+                <img class="h-6 w-6" src="./Assests/Images/shopping.png" alt="">
+                <span>Online Orders</span>
+              </li>
+              <li class="flex justify-center items-center gap-2">
+                <img class="h-6 w-6" src="./Assests/Images/cleaning.png" alt="">
+                <span>Clean Kitchen</span>
+              </li>
             </ul>
           </div>
 
           <div>
-            <ul class="leading-10">
-              <li>Pre Reservation</li>
-              <li>Organized Foodie Place</li>
-              <li>Super Chefs</li>
+            <ul class="leading-[50px]">
+              <li class="flex justify-center items-center gap-2">
+                <img class="h-6 w-6" src="./Assests/Images/booking.png" alt="">
+                <span>Pre Reservation</span>
+              </li>
+              <li class="flex justify-center items-center gap-2">
+                <img class="h-6 w-6" src="./Assests/Images/plan.png" alt="">
+                <span>Organized Place</span>
+              </li>
+              <li class="flex justify-center items-center gap-2">
+                <img class="h-6 w-6" src="./Assests/Images/cooking.png" alt="">
+                <span>Super Chefs</span>
+              </li>
             </ul>
           </div>
         </div>
@@ -510,10 +528,10 @@
   <!-- RIDER SECTION  -->
   <div class="bg-black">
     <div class="flex flex-col md:flex-row  justify-center items-center">
-      <div class="w-1/2">
+      <div class="w-1/2" data-aos="fade-down" data-aos-duration="1500">
         <img src="./Assests/Images/Rider.png" alt="">
       </div>
-      <div class="w-1/2 ">
+      <div class="w-3/2 " data-aos="fade-left" data-aos-duration="1500">
         <div class="text-center ">
           <h2 class="text-white text-md mb-4 md:text-4xl md:tracking-[0.25em]">YOUR MEAL AT YOUR DOOR</h2>
           <p class="text-white mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, tempora earum. Iusto,
@@ -533,12 +551,13 @@
   <!-- ABOUT US  -->
   <div class="bg-[#360707]">
 
-    <div class="flex flex-col md:flex-row  justify-center items-center">
+    <div class="flex flex-row  justify-center items-center gap-8 px-16">
 
-      <div class="w-2/3 text-white  px-8 ">
+      <div class="w-1/2 text-white flex flex-col justify-center items-center " data-aos="fade-down"
+        data-aos-duration="1500">
         <h2 class="text-6xl tracking-[.25em]  mb-2 ">ABOUT US</h2>
         <span class="text-2xl mb-2 tracking-[.6em]">We Delivered Taste</span>
-        <p class="text-sm text-left	 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam esse odio
+        <p class="text-sm text-center	 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam esse odio
           libero,
           debitis unde
           voluptatibus
@@ -552,7 +571,7 @@
           Now</Button>
       </div>
 
-      <div class="w-1/3">
+      <div class="w-3/2" data-aos="fade-up" data-aos-duration="1500">
         <img src="./Assests/Images/Pasta.png" alt="">
       </div>
     </div>
@@ -789,18 +808,12 @@
 
 
 
-
-
-
   <!-- FOOTER  -->
   <footer class="text-white bg-black body-font">
     <div
       class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
       <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
         <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
-          <img
-            src="https://elements-cover-images-0.imgix.net/0e27c6fd-fb86-417d-a2b3-b8abfc77a203?auto=compress%2Cformat&fit=max&w=900&s=7cf13f89389abc619d19f704ce75c181"
-            class="h-8 mr-3 rounded-full" alt="Flowbite Logo" />
           <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
           </svg>
           <span class="ml-3 text-xl">Food And Cafe</span>
@@ -927,10 +940,6 @@
 
 
 
-
-
-
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
@@ -950,75 +959,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-
-
-
-  <script>
-
-    $('#menu').owlCarousel({
-      loop: true,
-      autoplay: true,
-      autoplayTimeout: 5000,
-      autoplaySpeed: 2000,
-      margin: 10,
-      nav: true,
-      stagePadding: 100,
-      dots: false,
-      navText: [$('.menu-prev'), $('.menu-next')],
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 2
-        },
-        1000: {
-          items: 3
-        }
-      }
-    })
-
-    $('#testimonials').owlCarousel({
-      loop: true,
-      autoplay: true,
-      autoplayTimeout: 5000,
-      autoplaySpeed: 2000,
-      margin: 10,
-      nav: true,
-      dots: false,
-      navText: [$('.am-prev'), $('.am-next')],
-      items: 1
-
-    })
-
-    $('#foodItemsContainer').owlCarousel({
-      loop: true,
-      autoplay: true,
-      autoplayTimeout: 5000,
-      autoplaySpeed: 2000,
-      // stagePadding: 100,
-      center: true,
-      navSpeed: 2500,
-      margin: 10,
-      nav: true,
-      dots: false,
-      navText: [$('.card-prev'), $('.card-next')],
-      responsiveRefreshRate: 200,
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 2
-        },
-        1024: {
-          items: 4
-        }
-      }
-
-    })
-  </script>
 
 
 
