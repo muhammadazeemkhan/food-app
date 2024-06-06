@@ -58,3 +58,54 @@ $("#foodItemsContainer").owlCarousel({
     },
   },
 });
+
+$("#chef-carousal").owlCarousel({
+  loop: true,
+  autoplay: true,
+  autoplayTimeout: 5000,
+  autoplaySpeed: 2000,
+  // stagePadding: 100,
+  center: true,
+  navSpeed: 2500,
+  margin: 10,
+  nav: true,
+  dots: false,
+  navText: [$(".chef-prev"), $(".chef-next")],
+  responsiveRefreshRate: 200,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    600: {
+      items: 2,
+    },
+    1024: {
+      items: 4,
+    },
+  },
+});
+
+$("#coffe-carousel").owlCarousel({
+  loop: true,
+  autoplay: true,
+  autoplayTimeout: 5000,
+  autoplaySpeed: 2000,
+  center: true,
+  navSpeed: 2500,
+  margin: 10,
+  nav: true,
+  dots: false,
+  navText: [$(".coffe-prev"), $(".coffe-next")],
+  responsiveRefreshRate: 200,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    600: {
+      items: 2,
+    },
+    1024: {
+      items: 4,
+    },
+  },
+});
